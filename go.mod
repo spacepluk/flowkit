@@ -3,10 +3,12 @@ module github.com/onflow/flowkit/v2
 go 1.20
 
 require (
+	github.com/a8m/envsubst v1.4.2
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.2
 	github.com/ethereum/go-ethereum v1.13.5
 	github.com/gosuri/uilive v0.0.4
 	github.com/invopop/jsonschema v0.7.0
+	github.com/joho/godotenv v1.5.1
 	github.com/lmars/go-slip10 v0.0.0-20190606092855-400ba44fee12
 	github.com/onflow/cadence v1.0.0-M8
 	github.com/onflow/crypto v0.25.0
